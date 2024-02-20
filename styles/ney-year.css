@@ -225,3 +225,41 @@ span {
     margin-bottom: -20px;
     margin-right: -85px;
 }
+
+.portfolio {
+    margin-left: 180px;
+}
+
+.portfolio img:hover {
+    background-color: rgb(38, 0, 255);
+    transform: skewY(20deg);
+
+}
+
+.portfolio_semi_title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    
+}
+
+.portfolio_title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.portfolio_paragraph {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 30px;
+}
